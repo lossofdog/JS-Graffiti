@@ -41,6 +41,15 @@ button.addEventListener("click", function(){
 
 })
 
+//how to target the Pip picture only
+let dogImage = document.querySelector('.dog-image')
+dogImage.style.height = '500px'
+
+//this is targeting the paragraph tag
+let dogDescription = document.querySelector('.dog-description')
+dogDescription.style.fontSize = '20px'
+
+
 
 
 
