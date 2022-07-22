@@ -17,6 +17,14 @@ for (let i=0; i<dogNames.length;i++){
     if(dogNames[i].textContent === "Pip") {
         dogNames[i].style.color = "Black"
     }
+    if(dogNames[i].textContent === "Rizzo"){
+        dogNames[i].style.fontSize = "15px"
+    }
+}
+
+let dogDesc = document.querySelectorAll(".dog-description")
+for (let i=0; i < dogDesc.length; i++){
+    dogDesc[i].style.color = "purple"
 }
 
 
